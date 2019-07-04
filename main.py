@@ -51,3 +51,5 @@ def encode(lines):
       elist=elist+temp+"\n"
       
     return elist
+
+print(decode(encode(read("LogoArt.txt")).split("\n")))
